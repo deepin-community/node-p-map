@@ -1,0 +1,66 @@
+{
+  "_from": "in-range@^2.0.0",
+  "_id": "in-range@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-qcbuBQ9FdrlPHZsQTCrSkY1vj90aSO/rx8KOiVO1ZtSJ+vWLaNKjTZODKHL84iZEvdD4fZISZFdQ6lMyHIJeuw==",
+  "_location": "/in-range",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "in-range@^2.0.0",
+    "name": "in-range",
+    "escapedName": "in-range",
+    "rawSpec": "^2.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.0"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/in-range/-/in-range-2.0.0.tgz",
+  "_shasum": "61bc3a0a19299f1739aaf3da906fd4580b26b2d1",
+  "_spec": "in-range@^2.0.0",
+  "_where": "/home/xavier/dev/debian/src/pkg-js/packages/node-p-map",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/in-range/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Check if a number is in a given range",
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/sindresorhus/in-range#readme",
+  "keywords": [
+    "in",
+    "range",
+    "number",
+    "check",
+    "is"
+  ],
+  "license": "MIT",
+  "name": "in-range",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/in-range.git"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "version": "2.0.0"
+}

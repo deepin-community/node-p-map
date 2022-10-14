@@ -1,0 +1,19 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-p-map-$1/ \
+ https://github.com/sindresorhus/p-map/tags .*/archive/.*/v?([\d\.]+).tar.gz group
+
+opts=\
+ctype=nodejs,\
+component=aggregate-error,\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-aggregate-error-$1/ \
+ https://github.com/sindresorhus/aggregate-error/tags .*/archive/.*/v?([\d\.]+).tar.gz group
+
+opts=\
+ctype=nodejs,\
+component=clean-stack,\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-clean-stack-$1/ \
+ https://github.com/sindresorhus/clean-stack/tags .*/archive/.*/v?([\d\.]+).tar.gz group

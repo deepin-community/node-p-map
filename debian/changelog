@@ -1,0 +1,60 @@
+node-p-map (4.0.0+~3.1.0+~3.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.1
+  * Modernize debian/watch
+  * Add ctype=nodejs to component(s)
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+  * Use uscan group and repack
+  * New upstream version 4.0.0+~3.1.0+~3.0.1: updates clean-stack from 3.0.0
+    to 3.0.1
+  * Install components in nodejs dir
+
+ -- Yadd <yadd@debian.org>  Tue, 16 Nov 2021 12:19:21 +0100
+
+node-p-map (4.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Use dh-sequence-nodejs
+  * New upstream version 4.0.0
+  * Refresh patch
+  * Add dependency to node-escape-string-regexp
+  * Use dh-sequence-nodejs auto test links
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 24 Oct 2020 21:55:31 +0200
+
+node-p-map (3.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * New upstream version 3.0.0
+  * Use pkg-js-tools auto install
+  * Embed component: aggregate-error, clean-stack
+  * Patch test to use tape instead of ava
+  * Embed convert-hrtime, delay, in-range, random-int and time-span for test
+    only
+  * Update copyright
+  * Enable upstream test using pkg-js-tools
+  * Update VCS fields to salsa
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 24 Dec 2019 12:07:07 +0100
+
+node-p-map (1.2.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #877070)
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 28 Sep 2017 17:21:43 +0530
